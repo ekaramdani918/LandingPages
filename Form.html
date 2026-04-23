@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8">
+    <title>LOGIN PENDAFTARAN</title>
+    <style>
+       body {
+         font-family; Arial,sans-serif;
+         background: #f4f6f8;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         height: 100vh;
+       }
+       
+       .container {
+         background: #fff;
+         padding:25px 30px;
+         border-radius: 10px;
+         width: 350px;
+         box-shadow: 0 4px 10px rgba(0,0,0,0,1);
+       }
+       
+       .container h2 {
+         text-align: center;
+         margin:bottom;
+       }
+       
+       .form-grup {
+         margin-bottom: 15px;
+       }
+       
+       label {
+         display: block;
+         margin-bottom: 5px;
+         font-size: 14px;
+       }
+       
+       input,select {
+         width: 100%;
+         padding: 10px;
+         border: 1px solid #ccc;
+         border-radius: 6px;
+         font-size: 14px;
+       }
+       
+       input:focus, select:focus {
+            border-color: #4CAF50;
+            outline: none;
+        }
+
+        .btn {
+            width: 100%;
+            padding: 10px;
+            background: #4CAF50;
+            border: none;
+            color: white;
+            font-size: 16px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background: #45a049;
+        }
+        </style>
+      </head>
+      <body>
+        
+        <div class="container">
+          <h2>from pendaftaran</h2>
+          <form>
+            <div class="form-grup">
+              <label>Nama lengkap</label>
+              <input type="text" placeholder="Nama lengkap" required>
+               </div>
+               
+               <div class="form-grup">
+                 <label>password</label>
+                 <input type="password" placeholder="password" required>
+                 </div>
+                 
+                 <div class="form-grup">
+                   <label>Jenis kelamin</label>
+                   <select required>
+                     <option value="">Pilih</option>
+                     <option>Laki laki</option>
+                     <option>perempuan</option>
+                     </select>
+                      </div>
+                    <div class="form-grup">
+                      <label>Tanggal lahir</label>
+                      <input type="date" required>
+                      </div>
+                      
+                      <button type="submit" class="btn">Daftar</button>
+                      </form>
+                     </div>
+                     
+                     </body>
+                     </html>
+                        
+                       
+    
+    
